@@ -1,0 +1,13 @@
+.login-container {
+  height: 100%;
+  background-image: url('../../assets/images/backgroung-login.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-container .main-container .login-card{
+  background-color: #ffff;
+  height: 55vh;
+  width: 100%;
+}
