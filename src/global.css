@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, #root {
+  background: #333;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Archivo', sans-serif;
+}
+
+input,
+textarea,
+button,
+p,
+li,
+ul {
+  font-family: 'Poppins', sans-serif;
+}
