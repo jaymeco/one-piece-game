@@ -1,8 +1,16 @@
 import React from 'react';
-import { Box, Button, Grid, TextField, Typography } from '@mui/material';
-import './index.css'
+import {
+  Box,
+  Grid,
+  Button,
+  TextField,
+  Typography,
+} from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import './index.css';
 
 const LoginPage: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <section className="login-container">
       <Grid container className="main-container" paddingX={3}>
@@ -44,9 +52,10 @@ const LoginPage: React.FC = () => {
               </Grid>
               <Grid item xs={12}>
                 <Button
-                  variant="contained"
-                  color="primary"
                   fullWidth
+                  onClick={() => navigate('/private/personagens')}
+                  color="primary"
+                  variant="contained"
                 >
                   Entrar
                 </Button>
