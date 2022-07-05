@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import PrivateRouter from './private';
 import PublicRouter from './Public';
 
 const MainRouter: React.FC = () => {
@@ -10,7 +11,9 @@ const MainRouter: React.FC = () => {
         <Route path='/public'>
           {PublicRouter}
         </Route>
-        <Route path='/game' />
+        <Route path='/private'>
+          {PrivateRouter}
+        </Route>
       </Routes>
     </BrowserRouter>
   );
