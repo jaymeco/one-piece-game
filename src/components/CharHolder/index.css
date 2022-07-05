@@ -1,0 +1,54 @@
+.char-add-holder {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #fff;
+  margin-top: 30px;
+}
+
+.char-add-holder:hover {
+  cursor: pointer;
+  background-color: #fff;
+  transition: ease-in-out .3s;
+  border: 3px solid #3696EF;
+}
+
+.char-add-holder svg {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.char-add-holder:hover svg {
+  color: #3696EF;
+}
+
+.char-holder-container {
+  width: fit-content;
+}
+
+
+.char-holder-container .level-text {
+  align-self: flex-start;
+}
+
+.char-holder-container .char-image-container {
+  position: relative;
+}
+
+.char-holder-container .char-image-container img {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  transition: ease-in-out .3s;
+}
+
+.char-holder-container .char-image-container img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.char-holder-container .char-image-container .remove-char-btn {
+  position: absolute;
+  top: -30px;
+  right: -25px;
+}
